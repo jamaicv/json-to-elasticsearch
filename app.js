@@ -24,9 +24,6 @@ process.argv.forEach(function (val, index, array) {
     indexname = process.argv[index + 1];
   } else if (val == '-t') {
     type = process.argv[index + 1];
-  } else {
-    console.error('Invalid parameter given.')
-    process.exit();
   }
 });
 
