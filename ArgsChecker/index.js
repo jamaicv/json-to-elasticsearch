@@ -6,7 +6,7 @@ class ArgsChecker {
     } else {
       let filename = arg.split('.')
       if (filename.lenght !== 2 && filename[1] !== 'json') {
-        console.lerror('File must be json format.');
+        console.error('File must be json format.');
         process.exit();
       }
     }
